@@ -608,3 +608,5 @@ html.js .sello24{animation:sello24 .8s cubic-bezier(.22,.61,.36,1) .9s both}
 @media (min-width:900px){.cab__app{gap:8px;padding:0 16px 0 12px;color:var(--noche);font-size:.9375rem;font-weight:600;border:1.5px solid var(--noche);margin-right:6px}
 .cab__app:hover{background:var(--noche);color:#fff}}
 .cab__app-ico{flex:none}
+.sello24__gratis{display:block;font-size:1.35em;font-weight:700;letter-spacing:-.01em;opacity:1;margin-bottom:3px}
+.sello24__num{padding-right:10px;border-right:1px solid rgba(255,255,255,.3)}
