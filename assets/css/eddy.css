@@ -603,3 +603,8 @@ html:not(.js) .filtros-wrap{display:none}
 html.js .sello24{animation:sello24 .8s cubic-bezier(.22,.61,.36,1) .9s both}
 @keyframes sello24{from{opacity:0;transform:translateY(18px) rotate(-5deg) scale(.9)}to{opacity:1;transform:rotate(-5deg)}}
 @media (prefers-reduced-motion:reduce){html.js .sello24{animation:none}}
+
+/* «Entrar en la app» como botón (30/09, Antonio) */
+@media (min-width:900px){.cab__app{gap:8px;padding:0 16px 0 12px;color:var(--noche);font-size:.9375rem;font-weight:600;border:1.5px solid var(--noche);margin-right:6px}
+.cab__app:hover{background:var(--noche);color:#fff}}
+.cab__app-ico{flex:none}
