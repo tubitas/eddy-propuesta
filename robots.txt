@@ -1,0 +1,5 @@
+# Demo en GitHub Pages: no indexar.
+# Ojo: en una subruta (/eddy-propuesta/) este archivo no lo leen los buscadores;
+# lo que evita la indexación es el <meta name="robots" content="noindex, nofollow"> de cada página.
+User-agent: *
+Disallow: /
