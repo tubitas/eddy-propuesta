@@ -591,3 +591,5 @@ html:not(.js) .filtros-wrap{display:none}
 .heroe__entrega strong{color:var(--noche);font-weight:600}
 .heroe__ast{color:var(--tinta-2);text-decoration:none;padding:0 4px 0 1px}
 .compra__salvedad{font-size:.8125rem;color:var(--tinta-2)}
+.banda__enlace{display:block;color:inherit;text-decoration:none}
+.banda__enlace:hover .banda__txt{text-decoration:underline}
