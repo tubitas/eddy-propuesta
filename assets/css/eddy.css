@@ -593,3 +593,13 @@ html:not(.js) .filtros-wrap{display:none}
 .compra__salvedad{font-size:.8125rem;color:var(--tinta-2)}
 .banda__enlace{display:block;color:inherit;text-decoration:none}
 .banda__enlace:hover .banda__txt{text-decoration:underline}
+
+/* Sello «24 h en casa» (30/09, idea de Antonio) */
+.sello24{position:absolute;left:0;bottom:4%;z-index:3;display:flex;align-items:center;gap:10px;padding:10px 16px 10px 12px;border-radius:16px;background:var(--noche);color:#fff;text-decoration:none;transform:rotate(-5deg);box-shadow:0 10px 24px -12px rgba(0,5,53,.55);line-height:1.1}
+.sello24__num{font-weight:700;letter-spacing:-.03em;font-size:clamp(1.5rem,1.1rem + 1.6cqw,2.25rem);white-space:nowrap}
+.sello24__txt{font-size:clamp(.6875rem,.62rem + .5cqw,.8125rem);font-weight:500;opacity:.9}
+.sello24:hover{background:#0b1450}
+.sello24:focus-visible{outline:3px solid var(--noche);outline-offset:3px}
+html.js .sello24{animation:sello24 .8s cubic-bezier(.22,.61,.36,1) .9s both}
+@keyframes sello24{from{opacity:0;transform:translateY(18px) rotate(-5deg) scale(.9)}to{opacity:1;transform:rotate(-5deg)}}
+@media (prefers-reduced-motion:reduce){html.js .sello24{animation:none}}
