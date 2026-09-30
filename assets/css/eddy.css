@@ -585,3 +585,9 @@ html:not(.js) .filtros-wrap{display:none}
 .pie__logos{display:flex;gap:28px;align-items:center;flex-wrap:wrap}
 .pie__logos a{display:inline-flex;align-items:center;min-height:44px}
 .pie__logos img{height:40px;width:auto}
+
+/* Entrega en 24 h (30/09) */
+.heroe__entrega{margin:18px 0 0;font-size:.9375rem;color:var(--tinta-2)}
+.heroe__entrega strong{color:var(--noche);font-weight:600}
+.heroe__ast{color:var(--tinta-2);text-decoration:none;padding:0 4px 0 1px}
+.compra__salvedad{font-size:.8125rem;color:var(--tinta-2)}
